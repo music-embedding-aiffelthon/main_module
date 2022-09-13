@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "main.py", line 63, in <module>
-    trainer.linear_train_model(train_dataloader, test_dataloader, 'semi-supervised',num_epochs=config['linear_epoch'])
-KeyError: 'linear_epoch'
-Traceback (most recent call last):
-  File "main.py", line 63, in <module>
-    trainer.linear_train_model(train_dataloader, test_dataloader, 'semi-supervised',num_epochs=config['linear_epoch'])
-KeyError: 'linear_epoch'
