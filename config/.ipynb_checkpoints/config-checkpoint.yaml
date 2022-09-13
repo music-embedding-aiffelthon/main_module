@@ -1,0 +1,27 @@
+# We recommend batch size 16 ~ 32, if memory can handle parameters.
+batch_size: 32
+learning_rate: 0.0001
+dataset_dir: dataset
+
+# Conv2d or Conv1d
+model_type: Conv2d 
+
+# 'total' or 0 ~ 30
+top_genre: 10 
+
+dilation: False
+pretrain_epoch: 5
+latent_size: 512
+
+linear_evaluation_epoch: 20
+hidden_layer: 512
+freeze_encoder: False
+
+# top_k
+top_k: 2
+
+# checkpoints
+checkpoints_path: checkpoint
+
+# below options will use in embedding_vector.py
+

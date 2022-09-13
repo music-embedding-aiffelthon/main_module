@@ -1,0 +1,16 @@
+{
+    "os": "Linux-5.13.0-1027-gcp-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-09-11T06:18:05.154691",
+    "startedAt": "2022-09-11T06:18:04.792010",
+    "docker": null,
+    "cpu_count": 96,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "main.py",
+    "codePath": "main.py",
+    "host": "t1v-n-4d0664b8-w-0",
+    "username": "anthonypark6904",
+    "executable": "/usr/bin/python3"
+}

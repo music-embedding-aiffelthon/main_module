@@ -1,0 +1,168 @@
+2022-09-10 05:21:04,441 INFO    StreamThr :853797 [internal.py:wandb_internal():90] W&B internal server running at pid: 853797, started at: 2022-09-10 05:21:04.440861
+2022-09-10 05:21:04,443 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: status
+2022-09-10 05:21:04,444 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: status
+2022-09-10 05:21:04,487 INFO    WriterThread:853797 [datastore.py:open_for_write():75] open: /home/anthonypark6904/trainer_module/wandb/run-20220910_052104-1vw2njgm/run-1vw2njgm.wandb
+2022-09-10 05:21:04,487 DEBUG   SenderThread:853797 [sender.py:send():302] send: header
+2022-09-10 05:21:04,489 DEBUG   SenderThread:853797 [sender.py:send():302] send: run
+2022-09-10 05:21:04,783 INFO    SenderThread:853797 [dir_watcher.py:__init__():216] watching files in: /home/anthonypark6904/trainer_module/wandb/run-20220910_052104-1vw2njgm/files
+2022-09-10 05:21:04,783 INFO    SenderThread:853797 [sender.py:_start_run_threads():913] run started: 1vw2njgm with start time 1662787264.440615
+2022-09-10 05:21:04,783 DEBUG   SenderThread:853797 [sender.py:send():302] send: summary
+2022-09-10 05:21:04,784 INFO    SenderThread:853797 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-10 05:21:04,785 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: check_version
+2022-09-10 05:21:04,785 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: check_version
+2022-09-10 05:21:04,833 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: run_start
+2022-09-10 05:21:04,834 DEBUG   HandlerThread:853797 [meta.py:__init__():35] meta init
+2022-09-10 05:21:04,834 DEBUG   HandlerThread:853797 [meta.py:__init__():50] meta init done
+2022-09-10 05:21:04,834 DEBUG   HandlerThread:853797 [meta.py:probe():216] probe
+2022-09-10 05:21:04,835 DEBUG   HandlerThread:853797 [git.py:repo():40] git repository is invalid
+2022-09-10 05:21:04,835 DEBUG   HandlerThread:853797 [meta.py:_save_pip():54] save pip
+2022-09-10 05:21:04,836 DEBUG   HandlerThread:853797 [meta.py:_save_pip():68] save pip done
+2022-09-10 05:21:04,836 DEBUG   HandlerThread:853797 [meta.py:probe():254] probe done
+2022-09-10 05:21:04,861 DEBUG   SenderThread:853797 [sender.py:send():302] send: files
+2022-09-10 05:21:04,861 INFO    SenderThread:853797 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-09-10 05:21:04,884 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-10 05:21:04,884 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: stop_status
+2022-09-10 05:21:04,887 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: pause
+2022-09-10 05:21:04,887 INFO    HandlerThread:853797 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-09-10 05:21:04,939 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: resume
+2022-09-10 05:21:04,940 INFO    HandlerThread:853797 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-09-10 05:21:04,940 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: pause
+2022-09-10 05:21:04,940 INFO    HandlerThread:853797 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-09-10 05:21:05,014 DEBUG   SenderThread:853797 [sender.py:send():302] send: telemetry
+2022-09-10 05:21:05,014 DEBUG   SenderThread:853797 [sender.py:send():302] send: stats
+2022-09-10 05:21:05,014 DEBUG   SenderThread:853797 [sender.py:send():302] send: stats
+2022-09-10 05:21:05,396 INFO    Thread-16 :853797 [upload_job.py:push():138] Uploaded file /tmp/tmpe2wb2s9lwandb/1648ctc1-wandb-metadata.json
+2022-09-10 05:21:05,784 INFO    Thread-12 :853797 [dir_watcher.py:_on_file_created():275] file/dir created: /home/anthonypark6904/trainer_module/wandb/run-20220910_052104-1vw2njgm/files/requirements.txt
+2022-09-10 05:21:05,785 INFO    Thread-12 :853797 [dir_watcher.py:_on_file_created():275] file/dir created: /home/anthonypark6904/trainer_module/wandb/run-20220910_052104-1vw2njgm/files/wandb-summary.json
+2022-09-10 05:21:05,785 INFO    Thread-12 :853797 [dir_watcher.py:_on_file_created():275] file/dir created: /home/anthonypark6904/trainer_module/wandb/run-20220910_052104-1vw2njgm/files/wandb-metadata.json
+2022-09-10 05:21:09,703 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: resume
+2022-09-10 05:21:09,703 INFO    HandlerThread:853797 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-09-10 05:21:10,104 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: pause
+2022-09-10 05:21:10,104 INFO    HandlerThread:853797 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-09-10 05:21:10,107 DEBUG   SenderThread:853797 [sender.py:send():302] send: stats
+2022-09-10 05:21:17,125 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: resume
+2022-09-10 05:21:17,125 INFO    HandlerThread:853797 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-09-10 05:21:17,282 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: pause
+2022-09-10 05:21:17,282 INFO    HandlerThread:853797 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-09-10 05:21:17,329 DEBUG   SenderThread:853797 [sender.py:send():302] send: stats
+2022-09-10 05:21:20,016 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-10 05:21:20,017 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: stop_status
+2022-09-10 05:21:35,143 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-10 05:21:35,144 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: stop_status
+2022-09-10 05:21:35,794 INFO    Thread-12 :853797 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/trainer_module/wandb/run-20220910_052104-1vw2njgm/files/config.yaml
+2022-09-10 05:21:50,281 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-10 05:21:50,281 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: stop_status
+2022-09-10 05:21:54,252 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-10 05:21:54,252 DEBUG   SenderThread:853797 [sender.py:send():302] send: exit
+2022-09-10 05:21:54,252 INFO    SenderThread:853797 [sender.py:send_exit():438] handling exit code: 0
+2022-09-10 05:21:54,253 INFO    SenderThread:853797 [sender.py:send_exit():440] handling runtime: 0
+2022-09-10 05:21:54,255 INFO    SenderThread:853797 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-10 05:21:54,255 INFO    SenderThread:853797 [sender.py:send_exit():446] send defer
+2022-09-10 05:21:54,255 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: poll_exit
+2022-09-10 05:21:54,255 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: defer
+2022-09-10 05:21:54,256 INFO    HandlerThread:853797 [handler.py:handle_request_defer():164] handle defer: 0
+2022-09-10 05:21:54,256 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: defer
+2022-09-10 05:21:54,256 INFO    SenderThread:853797 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-09-10 05:21:54,256 INFO    SenderThread:853797 [sender.py:transition_state():459] send defer: 1
+2022-09-10 05:21:54,256 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: defer
+2022-09-10 05:21:54,256 INFO    HandlerThread:853797 [handler.py:handle_request_defer():164] handle defer: 1
+2022-09-10 05:21:54,257 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: defer
+2022-09-10 05:21:54,257 INFO    SenderThread:853797 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-09-10 05:21:54,257 INFO    SenderThread:853797 [sender.py:transition_state():459] send defer: 2
+2022-09-10 05:21:54,257 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: defer
+2022-09-10 05:21:54,257 INFO    HandlerThread:853797 [handler.py:handle_request_defer():164] handle defer: 2
+2022-09-10 05:21:54,257 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: defer
+2022-09-10 05:21:54,257 INFO    SenderThread:853797 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-09-10 05:21:54,257 INFO    SenderThread:853797 [sender.py:transition_state():459] send defer: 3
+2022-09-10 05:21:54,257 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: defer
+2022-09-10 05:21:54,257 INFO    HandlerThread:853797 [handler.py:handle_request_defer():164] handle defer: 3
+2022-09-10 05:21:54,257 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: defer
+2022-09-10 05:21:54,258 INFO    SenderThread:853797 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-09-10 05:21:54,258 INFO    SenderThread:853797 [sender.py:transition_state():459] send defer: 4
+2022-09-10 05:21:54,258 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: defer
+2022-09-10 05:21:54,258 INFO    HandlerThread:853797 [handler.py:handle_request_defer():164] handle defer: 4
+2022-09-10 05:21:54,258 DEBUG   SenderThread:853797 [sender.py:send():302] send: summary
+2022-09-10 05:21:54,258 INFO    SenderThread:853797 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-10 05:21:54,259 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: defer
+2022-09-10 05:21:54,259 INFO    SenderThread:853797 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-09-10 05:21:54,259 INFO    SenderThread:853797 [sender.py:transition_state():459] send defer: 5
+2022-09-10 05:21:54,259 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: defer
+2022-09-10 05:21:54,259 INFO    HandlerThread:853797 [handler.py:handle_request_defer():164] handle defer: 5
+2022-09-10 05:21:54,260 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: defer
+2022-09-10 05:21:54,260 INFO    SenderThread:853797 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-09-10 05:21:54,260 INFO    SenderThread:853797 [sender.py:transition_state():459] send defer: 6
+2022-09-10 05:21:54,260 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: defer
+2022-09-10 05:21:54,260 INFO    HandlerThread:853797 [handler.py:handle_request_defer():164] handle defer: 6
+2022-09-10 05:21:54,260 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: defer
+2022-09-10 05:21:54,260 INFO    SenderThread:853797 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-09-10 05:21:54,260 INFO    SenderThread:853797 [sender.py:transition_state():459] send defer: 7
+2022-09-10 05:21:54,261 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: defer
+2022-09-10 05:21:54,261 INFO    HandlerThread:853797 [handler.py:handle_request_defer():164] handle defer: 7
+2022-09-10 05:21:54,261 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: defer
+2022-09-10 05:21:54,261 INFO    SenderThread:853797 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-09-10 05:21:54,261 INFO    SenderThread:853797 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-09-10 05:21:54,357 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-10 05:21:54,799 INFO    SenderThread:853797 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/anthonypark6904/trainer_module/wandb/run-20220910_052104-1vw2njgm/files/wandb-summary.json
+2022-09-10 05:21:54,799 INFO    SenderThread:853797 [dir_watcher.py:finish():392] scan: /home/anthonypark6904/trainer_module/wandb/run-20220910_052104-1vw2njgm/files
+2022-09-10 05:21:54,799 INFO    SenderThread:853797 [dir_watcher.py:finish():406] scan save: /home/anthonypark6904/trainer_module/wandb/run-20220910_052104-1vw2njgm/files/requirements.txt requirements.txt
+2022-09-10 05:21:54,799 INFO    SenderThread:853797 [dir_watcher.py:finish():406] scan save: /home/anthonypark6904/trainer_module/wandb/run-20220910_052104-1vw2njgm/files/config.yaml config.yaml
+2022-09-10 05:21:54,800 INFO    SenderThread:853797 [dir_watcher.py:finish():406] scan save: /home/anthonypark6904/trainer_module/wandb/run-20220910_052104-1vw2njgm/files/wandb-metadata.json wandb-metadata.json
+2022-09-10 05:21:54,800 INFO    SenderThread:853797 [dir_watcher.py:finish():406] scan save: /home/anthonypark6904/trainer_module/wandb/run-20220910_052104-1vw2njgm/files/wandb-summary.json wandb-summary.json
+2022-09-10 05:21:54,800 INFO    SenderThread:853797 [sender.py:transition_state():459] send defer: 8
+2022-09-10 05:21:54,800 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: poll_exit
+2022-09-10 05:21:54,806 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: defer
+2022-09-10 05:21:54,806 INFO    HandlerThread:853797 [handler.py:handle_request_defer():164] handle defer: 8
+2022-09-10 05:21:54,809 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: defer
+2022-09-10 05:21:54,810 INFO    SenderThread:853797 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-09-10 05:21:54,810 INFO    SenderThread:853797 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-10 05:21:54,910 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-10 05:21:54,911 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: poll_exit
+2022-09-10 05:21:55,012 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-10 05:21:55,012 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: poll_exit
+2022-09-10 05:21:55,114 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-10 05:21:55,114 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: poll_exit
+2022-09-10 05:21:55,215 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-10 05:21:55,216 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: poll_exit
+2022-09-10 05:21:55,266 INFO    Thread-22 :853797 [upload_job.py:push():138] Uploaded file /home/anthonypark6904/trainer_module/wandb/run-20220910_052104-1vw2njgm/files/wandb-summary.json
+2022-09-10 05:21:55,304 INFO    Thread-21 :853797 [upload_job.py:push():138] Uploaded file /home/anthonypark6904/trainer_module/wandb/run-20220910_052104-1vw2njgm/files/config.yaml
+2022-09-10 05:21:55,317 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-10 05:21:55,317 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: poll_exit
+2022-09-10 05:21:55,330 INFO    Thread-20 :853797 [upload_job.py:push():138] Uploaded file /home/anthonypark6904/trainer_module/wandb/run-20220910_052104-1vw2njgm/files/requirements.txt
+2022-09-10 05:21:55,419 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-10 05:21:55,419 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: poll_exit
+2022-09-10 05:21:55,521 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-10 05:21:55,521 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: poll_exit
+2022-09-10 05:21:55,530 INFO    Thread-11 :853797 [sender.py:transition_state():459] send defer: 9
+2022-09-10 05:21:55,531 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: defer
+2022-09-10 05:21:55,531 INFO    HandlerThread:853797 [handler.py:handle_request_defer():164] handle defer: 9
+2022-09-10 05:21:55,531 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: defer
+2022-09-10 05:21:55,531 INFO    SenderThread:853797 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-09-10 05:21:55,622 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-10 05:21:55,902 INFO    SenderThread:853797 [sender.py:transition_state():459] send defer: 10
+2022-09-10 05:21:55,902 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: poll_exit
+2022-09-10 05:21:55,903 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: defer
+2022-09-10 05:21:55,903 INFO    HandlerThread:853797 [handler.py:handle_request_defer():164] handle defer: 10
+2022-09-10 05:21:55,903 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: defer
+2022-09-10 05:21:55,903 INFO    SenderThread:853797 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-09-10 05:21:55,903 INFO    SenderThread:853797 [sender.py:transition_state():459] send defer: 11
+2022-09-10 05:21:55,904 DEBUG   SenderThread:853797 [sender.py:send():302] send: final
+2022-09-10 05:21:55,904 DEBUG   SenderThread:853797 [sender.py:send():302] send: footer
+2022-09-10 05:21:55,904 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: defer
+2022-09-10 05:21:55,904 INFO    HandlerThread:853797 [handler.py:handle_request_defer():164] handle defer: 11
+2022-09-10 05:21:55,904 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: defer
+2022-09-10 05:21:55,904 INFO    SenderThread:853797 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-09-10 05:21:56,004 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-10 05:21:56,004 DEBUG   SenderThread:853797 [sender.py:send_request():316] send_request: poll_exit
+2022-09-10 05:21:56,004 INFO    SenderThread:853797 [file_pusher.py:join():176] waiting for file pusher
+2022-09-10 05:21:56,362 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: sampled_history
+2022-09-10 05:21:56,363 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: get_summary
+2022-09-10 05:21:56,363 INFO    MainThread:853797 [wandb_run.py:_footer_history_summary_info():3305] rendering history
+2022-09-10 05:21:56,363 INFO    MainThread:853797 [wandb_run.py:_footer_history_summary_info():3337] rendering summary
+2022-09-10 05:21:56,363 INFO    MainThread:853797 [wandb_run.py:_footer_sync_info():3261] logging synced files
+2022-09-10 05:21:56,364 DEBUG   HandlerThread:853797 [handler.py:handle_request():141] handle_request: shutdown
+2022-09-10 05:21:56,364 INFO    HandlerThread:853797 [handler.py:finish():810] shutting down handler
+2022-09-10 05:21:56,904 INFO    WriterThread:853797 [datastore.py:close():279] close: /home/anthonypark6904/trainer_module/wandb/run-20220910_052104-1vw2njgm/run-1vw2njgm.wandb
+2022-09-10 05:21:57,260 INFO    SenderThread:853797 [sender.py:finish():1312] shutting down sender
+2022-09-10 05:21:57,260 INFO    SenderThread:853797 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-10 05:21:57,260 INFO    SenderThread:853797 [file_pusher.py:join():176] waiting for file pusher
+2022-09-10 05:21:57,366 INFO    MainThread:853797 [internal.py:handle_exit():80] Internal process exited

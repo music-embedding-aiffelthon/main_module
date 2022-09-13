@@ -1,0 +1,72 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.2
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.8.10
+    start_time: 1662774737.379811
+    t:
+      1:
+      - 1
+      - 12
+      - 45
+      - 55
+      2:
+      - 1
+      - 12
+      - 45
+      - 55
+      3:
+      - 16
+      - 23
+      4: 3.8.10
+      5: 0.13.2
+      8:
+      - 1
+      - 5
+batch_size:
+  desc: null
+  value: 32
+checkpoints_path:
+  desc: null
+  value: genre_checkpoint
+dataset_dir:
+  desc: null
+  value: dataset
+dilation:
+  desc: null
+  value: true
+freeze_encoder:
+  desc: null
+  value: false
+hidden_layer:
+  desc: null
+  value: 512
+latent_size:
+  desc: null
+  value: 512
+learning_rate:
+  desc: null
+  value: 0.0001
+linear_evaluation:
+  desc: null
+  value: false
+linear_evaluation_epoch:
+  desc: null
+  value: 4
+model_type:
+  desc: null
+  value: Conv2d
+pretrain_epoch:
+  desc: null
+  value: 5
+projector_target:
+  desc: null
+  value: unfreeze
+top_k:
+  desc: null
+  value: 3

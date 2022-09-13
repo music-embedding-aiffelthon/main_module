@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "main.py", line 66, in <module>
+    trainer.linear_evaluation(supervised=True)
+  File "/home/anthonypark6904/trainer_module/train_module.py", line 199, in linear_evaluation
+    params = Encoder(dilation=config['dilation'], linear=True).init(init_rng, self.exmp)
+NameError: name 'init_rng' is not defined
+Traceback (most recent call last):
+  File "main.py", line 66, in <module>
+    trainer.linear_evaluation(supervised=True)
+  File "/home/anthonypark6904/trainer_module/train_module.py", line 199, in linear_evaluation
+    params = Encoder(dilation=config['dilation'], linear=True).init(init_rng, self.exmp)
+NameError: name 'init_rng' is not defined

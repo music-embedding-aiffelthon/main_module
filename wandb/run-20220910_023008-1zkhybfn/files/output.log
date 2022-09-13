@@ -1,0 +1,54 @@
+Load song_meta.json...
+Load complete!
+Load file list...
+100%|███████████████████████████████████████████████████████████████████████████| 707989/707989 [00:00<00:00, 801143.98it/s]
+
+
+
+
+
+
+
+165it [00:13, 11.80it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1:   9%|██████▉                                                                    | 317/3439 [00:52<08:36,  6.05it/s]
+frozen_dict_keys(['batch_stats', 'params'])
+frozen_dict_keys(['decoder', 'encoder'])
+frozen_dict_keys(['BatchNorm_0', 'BatchNorm_1', 'BatchNorm_2', 'BatchNorm_3', 'BatchNorm_4', 'BatchNorm_5', 'BatchNorm_6', 'BatchNorm_7', 'Conv_0', 'Conv_1', 'Conv_2', 'Conv_3', 'Conv_4', 'Conv_5', 'Conv_6', 'Conv_7', 'latent_vector'])
+frozen_dict_keys(['bias', 'kernel'])
+(5628, 512)
+frozen_dict_keys(['BatchNorm_0', 'BatchNorm_1', 'BatchNorm_2', 'BatchNorm_3', 'BatchNorm_4', 'BatchNorm_5', 'BatchNorm_6', 'BatchNorm_7', 'Conv_0', 'Conv_1', 'Conv_2', 'Conv_3', 'Conv_4', 'Conv_5', 'Conv_6', 'Conv_7', 'latent_vector'])
+frozen_dict_keys(['bias', 'kernel'])
+(3, 3, 1, 512)
+(3, 3, 512, 512)
+(3, 3, 512, 512)
+(3, 3, 512, 512)
+Traced<ShapedArray(float32[3,3,512,512])>with<DynamicJaxprTrace(level=0/1)>
+Traced<ShapedArray(float32[3,3,512,512])>with<DynamicJaxprTrace(level=0/1)>
+Traced<ShapedArray(float32[3,3,512,512])>with<DynamicJaxprTrace(level=0/1)>
+Traced<ShapedArray(float32[3,3,512,512])>with<DynamicJaxprTrace(level=0/1)>
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)

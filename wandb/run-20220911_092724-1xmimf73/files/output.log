@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "main.py", line 66, in <module>
+    trainer.linear_evaluation(supervised=True)
+  File "/home/anthonypark6904/trainer_module/train_module.py", line 201, in linear_evaluation
+    in_state.TrainState.create(apply_fn=self.model.apply, params=params, tx=optimizer)
+NameError: name 'in_state' is not defined
+Traceback (most recent call last):
+  File "main.py", line 66, in <module>
+    trainer.linear_evaluation(supervised=True)
+  File "/home/anthonypark6904/trainer_module/train_module.py", line 201, in linear_evaluation
+    in_state.TrainState.create(apply_fn=self.model.apply, params=params, tx=optimizer)
+NameError: name 'in_state' is not defined
